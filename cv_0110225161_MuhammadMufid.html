@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sepatu NewLand</title>
+    <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+    }
+
+.navbar {
+  display: flex;
+  justify-content: space-between; /* kiri dan kanan berjauhan */
+  align-items: center;
+  background-color: #333;
+  padding: 10px 20px;
+  color: #fff;
+}
+
+/* Bagian kiri (logo + links) */
+.navbar-left {
+  display: flex;
+  align-items: center;
+  gap: 20px; /* jarak antara logo dan links */
+}
+
+.logo {
+  font-size: 20px;
+  font-weight: bold;
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Link navigasi */
+.nav-links a {
+  margin-left: 15px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #f0a500;
+}
+
+/* Bagian kanan (search box) */
+.navbar-right input {
+  padding: 6px 10px;
+  border: none;
+  border-radius: 4px;
+  outline: none;
+}
+
+    .container {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      max-width: 900px;
+      margin: auto;
+      border: 1px solid #ccc;
+      padding: 20px;
+    }
+
+    .gambar-kiri img {
+      width: 200px;
+      height: auto;
+      border-radius: 8px;
+    }
+
+    .tombol-kanan {
+      display: flex;
+      gap: 10px; /* Jarak antar tombol */
+    }
+
+    .tombol-kanan button {
+      padding: 10px 20px;
+      font-size: 16px;
+      cursor: pointer;
+      background-color: #007bff;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      transition: background-color 0.3s;
+      white-space: nowrap;
+    }
+
+    .tombol-kanan button:hover {
+      background-color: #0056b3;
+    }
+
+    /* Responsive (opsional) */
+    @media (max-width: 600px) {
+      .container {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .tombol-kanan {
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+    <!-- Navbar Start -->
+  <nav class="navbar">
+    <div class="navbar-left">
+      <a href="#" class="logo">LOGO</a>
+      <div class="nav-links">
+        <a href="#">Home</a>
+        <a href="#">Produk</a>
+        <a href="#">Kontak</a>
+      </div>
+    </div>
+    <div class="navbar-right">
+      <input type="text" placeholder="Cari...">
+    </div>
+  </nav>
+  
+<div class="container">
+    <div class="gambar-kiri">
+      <img src="Sepatu/sepatu.png" alt="Gambar Kiri">
+    </div>
+    <p>Warna Sepatu : </p>    
+    <div class="tombol-kanan">
+      <button>Warna Kuning</button>
+      <button>Warna Hijau</button>
+      <button>Warna Biru</button>
+      <button>Warna Merah</button>
+    </div>
+</div>
+
+   <h3>Sepatu Keren dan Nyaman untuk Setiap Aktivitas</h3>
+
+<h4>Temukan koleksi sepatu terbaik di Sepatu NewLand yang dirancang untuk memberi kenyamanan, gaya, dan performa terbaik. Kami menawarkan berbagai jenis sepatu, mulai dari sepatu olahraga, sepatu kasual, sepatu formal, hingga sepatu khusus untuk kegiatan outdoor. Setiap pasang sepatu kami dibuat dengan bahan berkualitas tinggi dan teknologi canggih untuk mendukung kenyamanan kaki Anda sepanjang hari.</h4>
+</body>
+</html>
